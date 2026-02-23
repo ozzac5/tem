@@ -1,0 +1,54 @@
+<style>
+  /*<![CDATA[*/
+  .headH .headSub {
+    max-width: none;
+  }
+  .headH .headSub::before {
+    content: 'Gen Post APP';
+  }
+  /*]]>*/
+</style>
+
+<div id="AR_gAPP"></div>
+
+<script>
+  /*<![CDATA[*/
+  const cfgAG = {
+    xlang: '',
+    lang: {
+      /* prettier-ignore */
+      en: [ 'app name',/*0*/ 'text alt image',/*1*/ 'app icon (url)',/*2*/ 'app image (url)',/*3*/ 'theme color',/*4*/ 'theme dark color',/*5*/ 'package name',/*6*/ 'package link (url)',/*7*/ 'publisher',/*8*/ 'category',/*9*/ 'version',/*10*/ 'size',/*11*/ 'price (optional)',/*12*/ 'requires (optional)',/*13*/ 'features mod (optional)',/*14*/ 'server link download (optional)',/*15*/ 'other description (optional)',/*16*/ 'text table of contents (optional)',/*17*/ 'first paragraph (optional)',/*18*/ 'app screenshot | image $1 (url)',/*19*/ 'add another app screenshot | image',/*20*/ 'body content 01',/*21*/ 'link download $1',/*22*/ 'thumbnail $1',/*23*/ 'file name $1',/*24*/ 'version $1',/*25*/ 'size $1',/*26*/ 'features $1',/*27*/ 'add another link download',/*28*/ 'link download original',/*29*/ 'thumbnail',/*30*/ 'file name',/*31*/ 'version',/*32*/ 'size',/*33*/ 'source',/*34*/ 'Google Play',/*35*/ 'body content 02',/*36*/ 'Generate',/*37*/ 'Clear',/*38*/ 'Copy',/*39*/ 'APK',/*40*/ 'MOD',/*41*/ '.apk',/*42*/ ],
+      /* prettier-ignore */
+      in: [ 'nama aplikasi',/*0*/ 'alternatif teks gambar',/*1*/ 'ikon aplikasi (url)',/*2*/ 'gambar aplikasi (url)',/*3*/ 'tema warna',/*4*/ 'tema warna gelap',/*5*/ 'nama package',/*6*/ 'tautan package (url)',/*7*/ 'penerbit',/*8*/ 'kategori',/*9*/ 'versi',/*10*/ 'ukuran',/*11*/ 'harga (opsional)',/*12*/ 'membutuhkan (opsional)',/*13 */ 'fitur mod (opsional)',/*14*/ 'pengunduhan tautan server (opsional)',/*15*/ 'deskripsi lainnya (opsional)',/*16*/ 'teks daftar isi (opsional)' ,/*17*/ 'paragraf pertama (opsional)',/*18*/ 'app screenshot | gambar $1 (url)',/*19*/ 'tambahkan app screenshot | gambar lain',/*20*/ 'konten body 01', /*21*/ 'link unduh $1',/*22*/ 'thumbnail $1',/*23*/ 'nama file $1',/*24*/ 'versi $1',/*25*/ 'ukuran $1 ',/*26*/ 'fitur $1',/*27*/ 'tambahkan link download lain',/*28*/ 'link download asli',/*29*/ 'thumbnail',/*30*/ ' nama file',/*31*/ 'versi',/*32*/ 'ukuran',/*33*/ 'sumber',/*34*/ 'Google Play',/*35*/ 'konten 02 ',/*36*/ 'Buat',/*37*/ 'Hapus',/*38*/ 'Salin',/*39*/ 'APK',/*40*/ 'MOD',/*41 */ '.apk',/*42*/ ],
+      /* prettier-ignore */
+      ar: [ 'اسم التطبيق',/*0*/ 'صورة النص البديل',/*1*/ 'رمز التطبيق (URL)',/*2*/ 'صورة التطبيق (URL)',/*3*/ 'لون الموضوع',/*4*/ 'موضوع اللون الداكن',/*5*/ 'اسم الحزمة',/*6*/ 'رابط الحزمة (url)',/*7*/ 'الناشر',/*8*/ 'فئة',/*9*/ 'إصدار',/*10*/ 'مقاس',/*11*/ 'السعر (اختياري)',/*12*/ 'يتطلب (اختياري)',/*13*/ 'تعديل الميزات (اختياري)',/*14*/ 'تنزيل رابط الخادم (اختياري)',/*15*/ 'وصف آخر (اختياري)',/*16*/ 'جدول المحتويات النصي (اختياري)',/*17*/ 'الفقرة الأولى (اختياري)',/*18*/ 'لقطة شاشة للتطبيق | صورة $1 (url)',/*19*/ 'إضافة لقطة شاشة أخرى للتطبيق | صورة',/*20*/ 'محتوى الجسم 01',/*21*/ 'تحميل الرابط $1',/*22*/ 'ظفري $1',/*23*/ 'اسم الملف $1',/*24*/ 'إصدار $1',/*25*/ 'مقاس $1',/*26*/ 'سمات $1',/*27*/ 'إضافة رابط آخر للتحميل',/*28*/ 'رابط التحميل الاصلي',/*29*/ 'ظفري',/*30*/ 'اسم الملف',/*31*/ 'إصدار',/*32*/ 'مقاس',/*33*/ 'مصدر',/*34*/ 'Google Play',/*35*/ 'محتوى الجسم 02',/*36*/ 'يولد',/*37*/ 'واضح',/*38*/ 'ينسخ',/*39*/ 'APK',/*40*/ 'MOD',/*41*/ '.apk',/*42*/ ],
+      /* prettier-ignore */
+      hi: ['ऐप का नाम',/*0*/ 'टेक्स्ट अल्ट इमेज',/*1*/ 'ऐप आइकन (यूआरएल)',/*2*/ 'ऐप इमेज (यूआरएल)',/*3*/ 'थीम रंग',/*4*/ 'थीम गहरा रंग',/*5*/ 'पैकेज का नाम',/*6*/ 'पैकेज लिंक (यूआरएल)',/*7*/ 'प्रकाशक',/*8*/ 'श्रेणी',/*9*/ 'संस्करण',/*10*/ 'आकार',/*11*/ 'मूल्य (वैकल्पिक)',/*12*/ 'आवश्यक (वैकल्पिक)',/*13 */ 'फीचर्स मॉड (वैकल्पिक)',/*14*/ 'सर्वर लिंक डाउनलोड (वैकल्पिक)',/*15*/ 'अन्य विवरण (वैकल्पिक)',/*16*/ 'सामग्री की पाठ तालिका (वैकल्पिक) ',/*17*/ 'पहला पैराग्राफ (वैकल्पिक)',/*18*/ 'ऐप स्क्रीनशॉट | छवि $1 (यूआरएल)',/*19*/ 'कोई अन्य ऐप जोड़ें स्क्रीनशॉट | छवि',/*20*/ 'मुख्य सामग्री 01',/*21*/ 'लिंक डाउनलोड $1',/*22*/ 'थंबनेल $1',/*23*/ 'फ़ाइल नाम $1',/*24* / 'संस्करण $1',/*25*/ 'आकार $1',/*26*/ 'सुविधाएँ $1',/*27*/ 'एक और लिंक डाउनलोड जोड़ें',/*28*/ 'लिंक डाउनलोड मूल',/*29*/ 'थंबनेल',/*30*/ 'फ़ाइल नाम',/*31*/ 'संस्करण',/*32*/ 'आकार',/*33*/ 'स्रोत',/*34*/ 'Google Play',/*35*/ 'बॉडी कंटेंट 02',/*36*/ 'जेनरेट',/*37*/ 'क्लियर',/*38*/ 'कॉपी',/*39*/ 'APK',/*40*/ 'MOD',/*41*/ '.apk',/*42*/ ],
+      /* prettier-ignore */
+      vi: [ 'tên ứng dụng',/*0*/ 'văn bản hình ảnh thay thế',/*1*/ 'biểu tượng ứng dụng (url)',/*2*/ 'hình ảnh ứng dụng (url)',/*3*/ 'chủ đề color',/*4*/ 'màu tối chủ đề',/*5*/ 'tên gói',/*6*/ 'liên kết gói (url)',/*7*/ 'nhà xuất bản',/*8*/ 'loại',/*9*/ 'phiên bản',/*10*/ 'kích cỡ',/*11*/ 'giá (tuỳ chọn)',/*12*/ 'yêu cầu (tuỳ chọn)',/*13 */ 'mod các tính năng (tùy chọn)',/*14*/ 'tải xuống liên kết máy chủ (tùy chọn)',/*15*/ 'mô tả khác (tùy chọn)',/*16*/ 'mục lục văn bản (tùy chọn) ',/*17*/ 'đoạn đầu tiên (tùy chọn)',/*18*/ 'ảnh chụp màn hình ứng dụng | image $1 (url)',/*19*/ 'thêm ảnh chụp màn hình ứng dụng khác | image',/*20*/ 'nội dung nội dung 01',/*21*/ 'liên kết tải xuống $1',/*22*/ 'hình thu nhỏ $1',/*23*/ 'tên tệp $1',/*24*/ 'phiên bản $1',/*25*/ 'kích cỡ $1',/*26*/ 'tính năng $1',/*27*/ 'thêm liên kết tải xuống khác',/*28*/ 'liên kết tải xuống gốc',/*29*/ 'hình thu nhỏ',/*30*/ 'tên tệp',/*31*/ 'phiên bản',/*32*/ 'kích thước',/*33*/ 'nguồn',/*34*/ 'Google Play',/*35*/ 'nội dung nội dung 02',/*36*/ 'Tạo',/*37*/ 'Xóa',/*38*/ 'Sao chép',/*39*/ 'APK',/*40*/ 'MOD',/*41*/ '.apk',/*42*/ ],
+    },
+    /* prettier-ignore */
+    tx: [ 'Name', 'Package Name', 'Publisher', 'Category', 'Version', 'Size', 'Price', 'Requires', 'MOD Features', 'Link Download', 'FREE', 'Android', 'Play Store', 'Other Description', 'fist paragraph of', 'Table of contents', 'Copied to clipboard!', ],
+    cnt: [
+      `<h2>Introduce about #APP_NAME#</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae accusantium rerum magnam labore soluta saepe laboriosam sed amet. Eveniet, voluptatibus! Hic, eveniet harum. Autem, distinctio.</p>
+
+<h3>What is #APP_NAME#?</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<h2>Download #APP_NAME# APK for Android</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae expedita veritatis veniam repudiandae repellat ea laudantium ut fuga dolorem incidunt magnam sapiente, eum ullam velit unde quis.</p>`,
+
+      `<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, totam mollitia? Harum incidunt consectetur natus optio! Atque, eveniet.</p>
+
+<!-- Related Post in Article -->
+<details class="sp toc s1" open="">
+  <summary data-show="Show all" data-hide="Hide all">Related Post</summary>
+  <div class="toC" id="aRel"></div>
+</details>`,
+    ],
+  };
+  /*]]>*/
+</script>
+
+<script>/*<![CDATA[*/!function(r){var i=function(r,i){for(var t=[],n=0;n<43;n++)t[n]=r.charAt(n);for(n=0;n<43;n++){var o=i*(n+114)+i%37766,s=i*(n+715)+i%21201,j=o%43,a=s%43,f=t[j];t[j]=t[a],t[a]=f,i=(o+s)%1996970}var l=String.fromCharCode(127);return t.join("").split("%").join(l).split("#1").join("%").split("#0").join("#").split(l)}("s%rJcAAsgPs.%srg%i/%xRDAt%L_pdRSjel%ePjfpsj",1552745);const t=()=>{r[i[2]]({url:_AR[i[0]]+i[1]})};r[i[5]][i[4]](i[3])?t():r[i[6]](t,0,!0)}(this);/*]]>*/</script>
